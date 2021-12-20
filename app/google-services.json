@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68735332680",
+    "firebase_url": "https://chatde-edb5d-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "chatde-edb5d",
+    "storage_bucket": "chatde-edb5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68735332680:android:753b331ee33d9357edc37d",
+        "android_client_info": {
+          "package_name": "com.poohxx.chatde"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68735332680-dgbieltap1ffpcu9vckikj1a0lcdq77b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poohxx.chatde",
+            "certificate_hash": "c201350f3921fb963c91929d8a8920f12208bc15"
+          }
+        },
+        {
+          "client_id": "68735332680-brhd2vprrj0olas67a3tr0s24j2070gq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJklKOyLdBtAdSt5cKGJXSXZPrl82e5OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68735332680-brhd2vprrj0olas67a3tr0s24j2070gq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
