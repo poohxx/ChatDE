@@ -40,6 +40,7 @@ class SignInActivity : AppCompatActivity() {
         binding.apply {
             btnSignIn.setOnClickListener {
                 signInByGoogle()
+                checkAuthState()
             }
              }
 
@@ -63,10 +64,19 @@ class SignInActivity : AppCompatActivity() {
         auth.signInWithCredential(cridencial).addOnCompleteListener{
             if(it.isSuccessful){
                 Toast.makeText(this, "ok", Toast.LENGTH_SHORT).show()
+                checkAuthState()
             }
             else {
                 Toast.makeText(this, "error", Toast.LENGTH_SHORT).show()
             }
-        }}
+        }
+    }
+    private fun checkAuthState(){
+
+        if(auth.currentUser != null) {
+            val i = Intent(this, MainActivity::class.java)
+            startActivity(i)
+        }
+    }
 
 }
